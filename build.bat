@@ -1,0 +1,1 @@
+cxfreeze List.py --include-modules=lxml._elementpath,gzip --base-name=Win32GUI -c --icon=dango.ico
