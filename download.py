@@ -44,8 +44,8 @@ class DownloadTab(QtGui.QWidget):
 
         table.setHorizontalHeaderLabels((u"时间", u"标题", u"进度"))
         table.horizontalHeader().resizeSection(0, 107)
-        table.horizontalHeader().resizeSection(1, 550)
-        table.horizontalHeader().setResizeMode(2, QtGui.QHeaderView.Stretch)
+        table.horizontalHeader().setResizeMode(1, QtGui.QHeaderView.Stretch)
+        table.horizontalHeader().resizeSection(2, 50)
         table.verticalHeader().hide()
         table.setShowGrid(False)
 
