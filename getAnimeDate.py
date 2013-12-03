@@ -27,7 +27,6 @@ def write(web):
     subTeams.insert(0,allSubTeams)
     anime=[animeTitle,searchName,subTeams]
     F=open('Anime.dat','w')
-    import pickle
     pickle.dump(anime,F)
     F.close()
 def f2j(title):
